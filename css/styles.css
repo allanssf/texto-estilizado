@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botoes-tamanho {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.div-estilo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-tamanho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-cor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 12px;
+}
+
+.tamanho-fonte {
+    margin: 0 5px;
+}
+
+.estilo-texto {
+    display: flex;
+    text-align: center;
+}
+
+.botao-vermelho {
+    background-color: red;
+}
+
+.botao-azul {
+    background-color: blue;
+}
+
+.botao-roxo {
+    background-color: purple;
+}
+
+.botao-preto {
+    background-color: black;
+}
+
+.texto-lorem {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
